@@ -1,4 +1,7 @@
 import React from 'react';
+import logo from '../assets/LOGO.png'; // Asegúrate de que la ruta de la imagen sea correcta
+import logo2 from '../assets/cii y logo estado.png'; // Asegúrate de que la ruta de la imagen sea correcta
+import logo3 from '../assets/telefono.png'; // Asegúrate de que la ruta de la imagen sea correcta
 
 const VistaCarousel = ({ src, alt, isActive }) => {
   return (
@@ -13,7 +16,7 @@ const VistaCarousel = ({ src, alt, isActive }) => {
       {/* Logo superior izquierdo */}
       <div className="absolute top-4 left-4 z-10 max-w-xs max-h-48 sm:max-w-xs sm:max-h-24">
         <img
-          src="../src/assets/LOGO.png" // Asegúrate de que la ruta de la imagen sea correcta
+          src= {logo} // Asegúrate de que la ruta de la imagen sea correcta
           alt="Logo"
           className="img-fluid max-h-full object-contain"
         />
@@ -29,7 +32,7 @@ const VistaCarousel = ({ src, alt, isActive }) => {
       {/* Logo inferior izquierdo */}
       <div className="absolute bottom-4 left-4 z-10 max-w-xs max-h-48 sm:max-w-xs sm:max-h-24">
         <img
-          src="../src/assets/cii y logo estado.png"
+          src={logo2}
           alt="Logo"
           className="img-fluid max-h-full object-contain"
         />
@@ -38,7 +41,7 @@ const VistaCarousel = ({ src, alt, isActive }) => {
       {/* Logo inferior derecho */}
       <div className="absolute bottom-4 right-4 z-10 max-w-xs max-h-48 sm:max-w-xs sm:max-h-24">
         <img
-          src="../src/assets/telefono.png"
+          src={logo3}
           alt="Logo"
           className="img-fluid max-h-full object-contain"
         />

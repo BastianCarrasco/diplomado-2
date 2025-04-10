@@ -51,7 +51,7 @@ const VistaCarousel = ({ src, alt, isActive }) => {
       <div
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 bg-black bg-opacity-50 rounded-lg border-r-4 border-b-4 border-yellow-500 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
       >
-        <h2 className="text-white text-2xl md:text-4xl font-bold uppercase leading-tight sm:text-xl">
+        <h2 className="text-white text-2xl md:text-4xl font-monserrat uppercase leading-tight sm:text-xl">
           Diplomado <br />
           Internacional <br />
           en innovación

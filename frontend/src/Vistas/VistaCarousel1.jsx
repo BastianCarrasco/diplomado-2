@@ -4,6 +4,7 @@ const VistaCarousel1 = ({ src, alt, isActive }) => {
   return (
     <div
       className={`carousel-item position-relative ${isActive ? 'active' : ''}`}
+      style={{ fontFamily: "'Montserrat', sans-serif" }}
     >
       <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
         {/* Columna izquierda - Contenido textual */}
@@ -70,7 +71,7 @@ const VistaCarousel1 = ({ src, alt, isActive }) => {
             src={src}
             className="w-full h-full object-cover sm:h-auto lg:h-screen"
             style={{
-              objectPosition: 'center -150px', // Ajusta según el comportamiento de la imagen
+              objectPosition: 'center -150px',
             }}
             alt={alt}
           />

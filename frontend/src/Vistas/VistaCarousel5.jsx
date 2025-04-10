@@ -8,7 +8,7 @@ import cuatro from '../assets/4.png'; // Asegúrate de que la ruta de la imagen 
 
 const VistaCarousel5 = ({ src, alt, isActive }) => {
   return (
-    <div className={`carousel-item position-relative vh-100 ${isActive ? 'active' : ''}`}>
+    <div className={`carousel-item position-relative font-sans vh-100 ${isActive ? 'active' : ''}`}>
       {/* Background Image */}
       <div
         className="position-absolute w-100 h-100"

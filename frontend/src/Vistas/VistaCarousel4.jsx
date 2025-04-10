@@ -2,7 +2,7 @@ import React from 'react';
 
 const VistaCarousel4 = ({ src, alt, isActive }) => {
   return (
-    <div className={`carousel-item position-relative ${isActive ? 'active' : ''}`}>
+    <div className={`carousel-item position-relative font-sans ${isActive ? 'active' : ''}`}>
       <div className="row g-0 vh-100">
         {/* Left Column - Content */}
         <div className="col-md-5 d-flex flex-column h-100">

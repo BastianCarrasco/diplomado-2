@@ -3,7 +3,7 @@ import React from 'react';
 const VistaCarousel2 = ({ src, alt, isActive }) => {
   return (
     <div
-      className={`carousel-item position-relative ${isActive ? 'active' : ''}`}
+    className={`carousel-item position-relative font-sans ${isActive ? 'active' : ''}`}
     >
       <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
         {/* Columna izquierda - Imagen a pantalla completa */}
@@ -20,7 +20,7 @@ const VistaCarousel2 = ({ src, alt, isActive }) => {
         <div
           className="col-span-1 md:col-span-1 h-full bg-white flex items-center border-l-8 border-gray-700 p-4 md:p-8"
         >
-          <div className="w-full">
+          <div  className="w-full">
             <h3
               className="text-dark font-bold mb-4 text-center md:text-left px-2 py-2"
               style={{
@@ -29,6 +29,7 @@ const VistaCarousel2 = ({ src, alt, isActive }) => {
                 borderRight: '4px solid black',
                 borderBottom: '4px solid black',
                 padding: '5px 10px',
+                font: 'monserrat',
               }}
             >
               CONOCIMIENTOS ESPERADOS
